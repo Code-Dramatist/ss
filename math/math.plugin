@@ -1,0 +1,13 @@
+#!name= math
+#!desc= 心无旁骛的学数学
+#!author= NULL
+#!homepage= https://github.com/Code-Dramatist/ss
+#!icon=
+
+[Url Rewrite]
+
+[Script]
+http-response ^https:\/\/files.yuchenglw.com\/ requires-body=1,script-path=
+
+[MITM]
+hostname = files.yuchenglw.com
