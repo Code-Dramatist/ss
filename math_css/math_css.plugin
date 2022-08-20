@@ -1,0 +1,13 @@
+#!name= math_css
+#!desc= 心无旁骛的学数学(css)
+#!author= NULL
+#!homepage= https://github.com/Code-Dramatist/ss
+#!icon= https://raw.githubusercontent.com/Code-Dramatist/ss/main/math/1.png
+
+[Url Rewrite]
+
+[Script]
+http-response ^https:\/\/files.yuchenglw.com\/ requires-body=1,script-path=https://raw.githubusercontent.com/Code-Dramatist/ss/main/math_css/math_css.js
+
+[MITM]
+hostname = files.yuchenglw.com
